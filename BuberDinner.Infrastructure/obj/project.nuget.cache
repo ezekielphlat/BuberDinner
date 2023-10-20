@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7vHDrQRjq3CqhDDskod+KzIxSSLSQyY+xmHX9l5NH0kcOJFYY0YS01CmBZtTX4zVBvCkd/APZxkxmV2qYmzDxw==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://13.90.93.249/NugetGallery/api/v1/FeedService.svc'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

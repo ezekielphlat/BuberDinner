@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "jR6D/vjid2mknQ0PBvRiZ1KOeCCQQ4L4nFtiQYr2+8k5wSNNWqyck/0HsblVG68Vaojlz18V2hziStOGlAEAkg==",
+  "success": true,
+  "projectFilePath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\doyelayo\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "C:\\Users\\doyelayo\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://13.90.93.249/NugetGallery/api/v1/FeedService.svc'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
