@@ -36,3 +36,8 @@ C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Cont
 C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Application.pdb
 C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Infrastructure.pdb
 C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\BuberDinner.Domain.pdb
+C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\projects\dotnet\BuberDinner\BuberDinner.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

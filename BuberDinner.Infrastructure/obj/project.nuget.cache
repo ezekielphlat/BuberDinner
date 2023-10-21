@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "7vHDrQRjq3CqhDDskod+KzIxSSLSQyY+xmHX9l5NH0kcOJFYY0YS01CmBZtTX4zVBvCkd/APZxkxmV2qYmzDxw==",
+  "dgSpecHash": "yxkRclMqKxzIJNQ/hdrpEnVe1SGS/Rh3qSLb3w1bP360B6gBf3/1jwbduGGiwdN7trqZyvrn+i1psjrM7CY79Q==",
   "success": true,
   "projectFilePath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\doyelayo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\doyelayo\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\doyelayo\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\doyelayo\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\doyelayo\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\doyelayo\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1803",
