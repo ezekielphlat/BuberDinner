@@ -10,11 +10,14 @@
         "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
         "projectName": "BuberDinner.Contract",
         "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
-        "packagesPath": "C:\\Users\\doyelayo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
         "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doyelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eabodesegun.APPZONEGROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,8 +26,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ESSOLOTTEAM/48872575-2fd7-47da-a68d-b8f47deeefcf/_packaging/Essolo/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {

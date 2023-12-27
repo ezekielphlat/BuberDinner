@@ -18,6 +18,15 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "OneOf/3.0.263": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {}
+        }
+      },
       "BuberDinner.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -60,6 +69,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "OneOf/3.0.263": {
+      "sha512": "2xXFnUxkAA0rJ2sJz9FPeW/gzJIBvyj+xIvfTIkz42pz9JlcYse4/rwRnkmCsYxw6osy1whnBO6Ox6HBKEqDMw==",
+      "type": "package",
+      "path": "oneof/3.0.263",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/OneOf.dll",
+        "lib/net45/OneOf.dll",
+        "lib/netstandard1.3/OneOf.dll",
+        "lib/netstandard2.0/OneOf.dll",
+        "oneof.3.0.263.nupkg.sha512",
+        "oneof.nuspec"
+      ]
+    },
     "BuberDinner.Domain/1.0.0": {
       "type": "project",
       "path": "../BuberDinner.Domain/BuberDinner.Domain.csproj",
@@ -69,11 +93,13 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "BuberDinner.Domain >= 1.0.0",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0"
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
+      "OneOf >= 3.0.263"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\doyelayo\\.nuget\\packages\\": {}
+    "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -81,11 +107,14 @@
       "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
       "projectName": "BuberDinner.Application",
       "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
-      "packagesPath": "C:\\Users\\doyelayo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
       "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\doyelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eabodesegun.APPZONEGROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -94,8 +123,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/ESSOLOTTEAM/48872575-2fd7-47da-a68d-b8f47deeefcf/_packaging/Essolo/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -120,6 +148,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "OneOf": {
+            "target": "Package",
+            "version": "[3.0.263, )"
           }
         },
         "imports": [

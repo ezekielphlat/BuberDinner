@@ -10,11 +10,14 @@
         "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
         "projectName": "BuberDinner.Api",
         "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
-        "packagesPath": "C:\\Users\\doyelayo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
         "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doyelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eabodesegun.APPZONEGROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,8 +26,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ESSOLOTTEAM/48872575-2fd7-47da-a68d-b8f47deeefcf/_packaging/Essolo/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -55,6 +57,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -86,11 +92,14 @@
         "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
         "projectName": "BuberDinner.Application",
         "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
-        "packagesPath": "C:\\Users\\doyelayo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
         "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doyelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eabodesegun.APPZONEGROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,8 +108,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ESSOLOTTEAM/48872575-2fd7-47da-a68d-b8f47deeefcf/_packaging/Essolo/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -125,6 +133,10 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "OneOf": {
+              "target": "Package",
+              "version": "[3.0.263, )"
             }
           },
           "imports": [
@@ -153,11 +165,14 @@
         "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
         "projectName": "BuberDinner.Contract",
         "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
-        "packagesPath": "C:\\Users\\doyelayo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
         "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doyelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eabodesegun.APPZONEGROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,8 +181,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ESSOLOTTEAM/48872575-2fd7-47da-a68d-b8f47deeefcf/_packaging/Essolo/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -210,11 +224,14 @@
         "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
         "projectName": "BuberDinner.Domain",
         "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
-        "packagesPath": "C:\\Users\\doyelayo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
         "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doyelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eabodesegun.APPZONEGROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,8 +240,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ESSOLOTTEAM/48872575-2fd7-47da-a68d-b8f47deeefcf/_packaging/Essolo/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -267,11 +283,14 @@
         "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
         "projectName": "BuberDinner.Infrastructure",
         "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\doyelayo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
         "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doyelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eabodesegun.APPZONEGROUP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -280,8 +299,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "http://13.90.93.249/NugetGallery/api/v1/FeedService.svc": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/ESSOLOTTEAM/48872575-2fd7-47da-a68d-b8f47deeefcf/_packaging/Essolo/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
