@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {}
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {}
   },
   "projects": {
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
         "projectName": "BuberDinner.Contract",
-        "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
+        "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
         "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\obj\\",
+        "outputPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

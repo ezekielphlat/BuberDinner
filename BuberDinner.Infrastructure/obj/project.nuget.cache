@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nwlUhcFnI/Kah+r/3VTmFa5lBari/ur4CdiPrxFPR2UuttLR4VeRBxmNTpo3EZNAe9LHb088GT0ft/NShvx1sQ==",
+  "dgSpecHash": "2Xs81kUT4m9QTipeH9DCr/f/WkM0C+6a60qhhkVXAe6PFhvt49eDZrdhsZwcdVui5AmSftvE4ownuAGPg2S+1g==",
   "success": true,
-  "projectFilePath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
+  "projectFilePath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",

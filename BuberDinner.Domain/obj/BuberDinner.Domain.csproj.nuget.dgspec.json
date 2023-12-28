@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {}
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {}
   },
   "projects": {
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
         "projectName": "BuberDinner.Domain",
-        "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+        "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
         "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\obj\\",
+        "outputPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

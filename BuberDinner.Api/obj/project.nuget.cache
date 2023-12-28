@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rxh3rzZavsxnVFff0Y/9/9luTnpCdZ5ZtHw11lNVuEKhMv0AD59R8LO+ZtZ0QikRkNVceAhh0ROkXRtxcaA2jg==",
+  "dgSpecHash": "8qxXQ43p7UITgRkeZi+nP856BL5Dj/keTM5yuYS73x8GUIfR6zQm0xqe+QrHAqxaeE5jBgXwKA8z4L/gqs3TSw==",
   "success": true,
-  "projectFilePath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
+  "projectFilePath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

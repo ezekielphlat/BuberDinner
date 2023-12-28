@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj": {}
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj": {}
   },
   "projects": {
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj": {
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
         "projectName": "BuberDinner.Api",
-        "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
+        "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Api\\BuberDinner.Api.csproj",
         "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Api\\obj\\",
+        "outputPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,14 +32,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
-                "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj"
+              "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
+                "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj"
               },
-              "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {
-                "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj"
+              "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {
+                "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj"
               },
-              "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj": {
-                "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj"
+              "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj": {
+                "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -86,14 +90,14 @@
         }
       }
     },
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
         "projectName": "BuberDinner.Application",
-        "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
+        "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
         "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\obj\\",
+        "outputPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -114,8 +118,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
-                "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj"
+              "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
+                "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj"
               }
             }
           }
@@ -130,6 +134,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -159,14 +171,14 @@
         }
       }
     },
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
         "projectName": "BuberDinner.Contract",
-        "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
+        "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\BuberDinner.Contract.csproj",
         "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Contract\\obj\\",
+        "outputPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -218,14 +230,14 @@
         }
       }
     },
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
         "projectName": "BuberDinner.Domain",
-        "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+        "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
         "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Domain\\obj\\",
+        "outputPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -277,14 +289,14 @@
         }
       }
     },
-    "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj": {
+    "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
+        "projectUniqueName": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
         "projectName": "BuberDinner.Infrastructure",
-        "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
+        "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\eabodesegun.APPZONEGROUP\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Infrastructure\\obj\\",
+        "outputPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -305,8 +317,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
-                "projectPath": "C:\\projects\\dotnet\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj"
+              "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
+                "projectPath": "C:\\projects\\dotnet\\new bd\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj"
               }
             }
           }

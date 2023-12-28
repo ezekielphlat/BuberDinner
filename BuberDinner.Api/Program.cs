@@ -14,14 +14,14 @@ var builder = WebApplication.CreateBuilder(args);
     // applies the error handling filter to all the controllers
     //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
     builder.Services.AddControllers();
-    builder.Services.AddSingleton<ProblemDetailsFactory, BuberDinnerProblemDetailsFactory>();
+   // builder.Services.AddSingleton<ProblemDetailsFactory, BuberDinnerProblemDetailsFactory>();
 
 }
 var app = builder.Build();
 {
     // error handling using global middleware
     // app.UseMiddleware<ErrorHandlingMiddleware>();
-    app.UseExceptionHandler("/error");
+   // app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
     app.MapControllers();
     app.Run();
