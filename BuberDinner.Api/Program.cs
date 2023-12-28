@@ -1,5 +1,6 @@
 
 
+using BuberDinner.Api;
 using BuberDinner.Api.Errors;
 using BuberDinner.Api.Filters;
 using BuberDinner.Api.Middleware;
@@ -9,8 +10,7 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
-    builder.Services.AddApplication();
-    builder.Services.AddInfrastructure(builder.Configuration);
+    builder.Services.AddPresentation().AddApplication().AddInfrastructure(builder.Configuration);
     // applies the error handling filter to all the controllers
     //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
     builder.Services.AddControllers();
@@ -19,7 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 }
 var app = builder.Build();
 {
-    // error handling using global middleware
+    // error handling using global middl
     // app.UseMiddleware<ErrorHandlingMiddleware>();
    // app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();
