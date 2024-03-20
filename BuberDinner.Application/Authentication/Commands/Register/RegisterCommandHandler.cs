@@ -3,6 +3,7 @@ using BuberDinner.Application.Authentication.Common;
 using BuberDinner.Application.Common.Interfaces.Authentication;
 using BuberDinner.Application.Common.Interfaces.Persistence;
 using BuberDinner.Domain.Entities;
+using ErrorOr;
 using MediatR;
 
 namespace BuberDinner.Application.Authentication.Commands.Register;
@@ -22,6 +23,7 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, Authentic
 
     public async Task<AuthenticationResult> Handle(RegisterCommand command, CancellationToken cancel)
     {
+        await Task.CompletedTask;
         // check if user already exists
         if (_userRepository.GetUserByEmail(command.Email) is not null)
         {
@@ -33,8 +35,10 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, Authentic
         // create jwt token
 
         var token = _jwtTokenGenerator.GenerateToken(user);
-        return new AuthenticationResult(user, token);
+        return  new AuthenticationResult(user, token);
 
     }
+
+  
 }
 

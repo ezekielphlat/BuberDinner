@@ -1,6 +1,7 @@
-﻿
+﻿ 
 
 using BuberDinner.Application.Authentication.Common;
+using ErrorOr;
 using MediatR;
 
 namespace BuberDinner.Application.Authentication.Commands.Register;
